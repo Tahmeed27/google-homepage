@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+li {
+    padding: 4px;
+    display: inline
+}
+
+li:hover {
+    text-decoration: underline;
+}
