@@ -70,7 +70,7 @@ input {
     border-width: 1px;
     border-color: rgb(196, 196, 196);
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right:10px;
     justify-content: space-between;
