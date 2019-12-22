@@ -1,6 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
     display: flex;
-    list-style: none;
     justify-content: space-between;
     padding: 4px;
 }
@@ -8,6 +11,7 @@
 li{
     display: inline;
     padding: 5px;
+    list-style: none;
 }
 
 li:hover {
@@ -16,8 +20,17 @@ li:hover {
 
 button {
     padding: 10px;
-    background-color: rgb(223, 223, 223);
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: rgb(243, 243, 243);
     border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
 }
 img {
     margin-left: 20px;
@@ -44,8 +57,28 @@ form{
     border: solid;
     border-radius: 40px;
     border-width: 1px;
+    border-color: rgb(196, 196, 196);
     padding: 5px
 }
 input {
     border: none;
+}
+
+.footer{
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(196, 196, 196);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right:10px;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
